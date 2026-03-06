@@ -12,9 +12,4 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .DS_Store
-.next
-node_modules
-.next
-.vercel
-.env
-.env.local
+
