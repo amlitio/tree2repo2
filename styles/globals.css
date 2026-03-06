@@ -14,30 +14,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Aave-Style Minimal Scrollbar */
+/* Premium Developer Scrollbar */
 .custom-scroll::-webkit-scrollbar {
   width: 5px;
 }
-
 .custom-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
-
 .custom-scroll::-webkit-scrollbar-thumb {
   background: #222;
   border-radius: 10px;
 }
-
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #00FF85;
 }
 
-/* Layout Tightening */
 * {
   box-sizing: border-box;
 }
 
-/* Ensure typography stays sharp */
 h1, h2, h3 {
   letter-spacing: -0.04em;
 }
