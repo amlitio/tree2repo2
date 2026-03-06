@@ -1,24 +1,43 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   scroll-behavior: smooth;
+  background-color: #050505;
 }
 
-/* Custom Scrollbar for the Glassy Editor */
-::-webkit-scrollbar {
-  width: 8px;
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar-track {
+/* Aave-Style Minimal Scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #333;
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #222;
   border-radius: 10px;
-  border: 2px solid #1a1a1a;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #00FF85;
+}
+
+/* Layout Tightening */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure typography stays sharp */
+h1, h2, h3 {
+  letter-spacing: -0.04em;
 }
