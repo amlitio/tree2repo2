@@ -14,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Premium Developer Scrollbar */
+/* Premium Scrollbar */
 .custom-scroll::-webkit-scrollbar {
   width: 5px;
 }
@@ -29,10 +29,6 @@ body {
   background: #00FF85;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-h1, h2, h3 {
-  letter-spacing: -0.04em;
-}
+h1, h2, h3 { letter-spacing: -0.04em; }
